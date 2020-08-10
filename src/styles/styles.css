@@ -1,0 +1,43 @@
+* {
+    text-align: center;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+#hero-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../assets/images/retro-top.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 60vh;
+    border-radius: .5%;
+}
+
+.header-first-name {
+    font-size: 120px;
+    background-image: url(https://media.giphy.com/media/Ii3VY9rN94TMVVtyn6/giphy.gif);
+    background-position: center;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    font-family: 'lazer84', sans-serif;
+}
+
+.header-last-name {
+    font-size: 120px;
+    background-image: url(https://media.giphy.com/media/XcRjXm7w6kh721pNJD/giphy.gif);
+    background-position: center;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    font-family: 'lazer84', sans-serif;
+}
+
+.container-fluid {
+}
