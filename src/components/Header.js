@@ -3,10 +3,10 @@ import "../styles/styles.css";
 
 function Header() {
   return (
-    <div className="wrapper">
+    <div className="container-fluid">
       <header className="header-hero">
-        <div className="container-fluid" id="hero-bg">
-          <h1 className="header-first-name">JEFFREY ROCKENBACH</h1>
+        <div id="hero-bg">
+          <h1 id="header-hero">JEFFREY ROCKENBACH</h1>
           <h2>FULL STACK ENGINEER</h2>
           <hr className="hr"></hr>
           {/* <img src={require('../assets/images/retro-top.jpg')} className="hero-top" alt=""></img> */}
