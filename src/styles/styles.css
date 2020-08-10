@@ -2,24 +2,36 @@
     text-align: center;
 }
 
-.wrapper {
-    padding: 20px;
+.wrapper{
 }
 
-#hero-top {
+.hero {
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    padding: 4vh;
+
+}
+
+#hero-bg {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(../assets/images/retro-top.jpg);
+    background-image:  linear-gradient(to bottom, rgba(160, 21, 252, 0.37), rgba(255, 0, 64, 0.295)), 
+    url(https://media.giphy.com/media/NKEt9elQ5cR68/giphy.gif);
     background-position: center;
     background-size: cover;
     object-fit: cover;
-    height: 60vh;
-    border-radius: .5%;
+    width: 100%;
+    height:90vh;
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    /* opacity: 0.85; */
 }
 
-.header-first-name {
+
+/* .header-first-name {
     font-size: 120px;
     background-image: url(https://media.giphy.com/media/Ii3VY9rN94TMVVtyn6/giphy.gif);
     background-position: center;
@@ -37,6 +49,19 @@
     -moz-background-clip: text;
     -webkit-background-clip: text;
     font-family: 'lazer84', sans-serif;
+} */
+
+h1 {
+    font-size: 80px;;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 20vh;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
 }
 
 .container-fluid {
