@@ -5,10 +5,16 @@ body {
   line-height: 1.5;
   padding: 2.6vh;
 }
-
-.container-fluid {
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 0;
+    }
 }
-
+@media only screen and (max-width: 768px) {
+.container-fluid {
+    padding: 0;
+}
+}
 #header-hero {
   display: inline-block;
   width: 100%;
@@ -77,11 +83,10 @@ h3 {
 
 .intro-section {
   padding-top: 5vh;
-  padding-bottom: 5vh;
 }
 
 .projects {
-  padding: 4vh 0 4vh 0;
+  padding: 2vh 0 4vh 0;
 }
 
 .projects-bg {
@@ -103,8 +108,10 @@ h3 {
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
   opacity: 0.80;
 }
-
+@media only screen and (max-width: 768px) {
 .footer-container {
+    display: inline-block;
+}
 }
 
 .footer {
@@ -114,4 +121,11 @@ h3 {
   text-align: center;
   padding: 0 10vw 0 10vw;
   opacity: 0.80;
+  overflow: auto;
+}
+@media only screen and (max-width: 768px) {
+    .footer {
+        padding-bottom: 0;
+        margin: 0;
+    }
 }
