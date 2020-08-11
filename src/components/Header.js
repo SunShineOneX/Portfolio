@@ -7,6 +7,7 @@ function Header() {
       <header className="header-hero">
         <div id="hero-bg">
           <h1 id="header-hero">JEFFREY ROCKENBACH</h1>
+          {/* This has an ID and the other doesnt. look into this. */}
           <h2>FULL STACK ENGINEER</h2>
           <hr className="hr"></hr>
           {/* <img src={require('../assets/images/retro-top.jpg')} className="hero-top" alt=""></img> */}
@@ -14,6 +15,7 @@ function Header() {
       </header>
       <div className="intro-section">
           <button>SYNTHWAVE</button>
+          <h1 className="for-steph">I love you honey!!!!</h1>
           <h3>Dynamic engineering, optimized solutions</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
