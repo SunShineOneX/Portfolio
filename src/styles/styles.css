@@ -4,6 +4,7 @@ body {
   font-size: 1.5rem;
   line-height: 1.5;
   padding: 2.6vh;
+  background-color: #e1b6f1;
 }
 @media only screen and (max-width: 768px) {
     body {
@@ -74,7 +75,7 @@ h2 {
   font-family: "Patua One", cursive;
   color: white;
   letter-spacing: 20px;
-  font-size: 3vw;
+  font-size: 5vw;
 }
 
 h3 {
@@ -86,6 +87,16 @@ button {
   margin-bottom: 2vh; 
 }
 
+/* .test {
+    background-color: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    background-image: url(https://media.giphy.com/media/1dJWnCZBCE7gcFwLvk/giphy.gif);
+    background-position: bottom;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    font-family: 'lazer84', sans-serif;
+} */
+
 .for-steph {
     color: black;
     padding-top: 0;
@@ -95,7 +106,7 @@ button {
     color: transparent;
     -moz-background-clip: text;
     -webkit-background-clip: text;
-    font-family: 'lazer84', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .intro-section {

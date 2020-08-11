@@ -14,7 +14,11 @@ function Header() {
         </div>
       </header>
       <div className="intro-section">
+          <div>
           <button>SYNTHWAVE</button>
+          </div>
+
+          {/* <button className="test">TOKYO NIGHTS</button> */}
           <h1 className="for-steph">I love you honey!!!!</h1>
           <h3>Dynamic engineering, optimized solutions</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
