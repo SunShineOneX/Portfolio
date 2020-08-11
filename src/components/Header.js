@@ -13,6 +13,7 @@ function Header() {
         </div>
       </header>
       <div className="intro-section">
+          <button>SYNTHWAVE</button>
           <h3>Dynamic engineering, optimized solutions</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
