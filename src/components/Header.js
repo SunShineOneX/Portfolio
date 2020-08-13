@@ -24,6 +24,16 @@ function Header() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+
+
+          {/* //
+          // ──────────────────────────────────────── I ──────────
+          //   :::::: : :  :   :    :     :        :          :
+          // ──────────────────────────────────────────────────
+                   {/* TO DO: Add react, node, js, firebase?? icons and size them */}
+
+
       </div>
       <div className="projects">
       <div className="projects-bg">
