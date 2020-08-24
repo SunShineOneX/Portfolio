@@ -4,7 +4,7 @@ body {
   font-size: 1.5rem;
   line-height: 1.5;
   padding: 2.6vh;
-  background-color: #e1b6f1;
+  background-color: white;
 }
 @media only screen and (max-width: 768px) {
     body {
