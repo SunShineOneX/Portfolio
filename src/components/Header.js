@@ -19,7 +19,7 @@ function Header() {
           </div>
 
           {/* <button className="test">TOKYO NIGHTS</button> */}
-          <h1 className="for-steph">I love you honey!!!!</h1>
+          <h1 className="for-steph">Experience</h1>
           <h3>Dynamic engineering, optimized solutions</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -40,12 +40,13 @@ function Header() {
       </div>
       </div>
       <div className="projects-portfolio">
-          <h3>PROJECTS PORTFOLIO</h3>
+          <h3>Projects Portfolio</h3>
       </div>
       <div className="footer-container">
-      <div className="footer">
+      <div className="footer">                
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
               tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h3>Footer tester</h3>
 
       </div>
       </div>
