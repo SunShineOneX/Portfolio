@@ -19,7 +19,7 @@ function Header() {
           </div>
 
           {/* <button className="test">TOKYO NIGHTS</button> */}
-          <h1 className="for-steph">Experience</h1>
+          <h1 className="for-steph">EXPERIENCE</h1>
           <h3>Dynamic engineering, optimized solutions</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -37,6 +37,7 @@ function Header() {
       </div>
       <div className="projects">
       <div className="projects-bg">
+        <h1>Cheese it</h1>
       </div>
       </div>
       <div className="projects-portfolio">
