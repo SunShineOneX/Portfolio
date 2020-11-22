@@ -8,6 +8,7 @@ body {
 }
 
  p {
+  font-family: 'Castoro', serif;
   color:white;
 }
 
@@ -84,6 +85,7 @@ h2 {
 }
 
 h3 {
+  font-family: 'Castoro', serif;
   color: orange;
   text-shadow: 0 0 30px orangered;
 }
