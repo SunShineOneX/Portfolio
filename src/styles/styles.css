@@ -6,8 +6,9 @@ body {
   padding: 2.6vh;
   background-color: darkslateblue;
 }
-p {
-  color: white;
+
+ p {
+  color:white;
 }
 
 @media only screen and (max-width: 768px) {
@@ -68,7 +69,7 @@ p {
 } */
 
 h1 {
-  font-size: 8vw;
+  font-size: 6vw;
   font-family: "Patua One", cursive;
   color: white;
   padding-top: 20vh;
@@ -79,7 +80,7 @@ h2 {
   font-family: "Patua One", cursive;
   color: white;
   letter-spacing: 20px;
-  font-size: 5vw;
+  font-size: 3.5vw;
 }
 
 h3 {
@@ -149,13 +150,13 @@ button {
 
 .footer {
   height: 20vh;
-  background-color: #873883;
   color: white;
   text-align: center;
   padding: 0 10vw 0 10vw;
   opacity: 0.80;
   overflow: auto;
 }
+
 @media only screen and (max-width: 768px) {
     .footer {
         padding-bottom: 0;
